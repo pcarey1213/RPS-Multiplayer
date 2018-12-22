@@ -1,2 +1,2 @@
 # RPS-Multiplayer
-Multiplayer Rock Paper Scissors game using Google Firebase technology. 
+Multiplayer Rock Paper Scissors game using Google Firebase technology. The first player starts by selecting one of the three button options on the left side. The next player chooses one of the ones on the right. When both have selected their choice, the game winner is announced, the game restarts and a counter displays the combined wins, losses, and ties at the bottom of the page. 

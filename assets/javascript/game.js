@@ -187,35 +187,42 @@ if (player1Done==true && player2Done==true) {
     if ((choice1 === "rock") && (choice2 === "scissors")) {
         wins1++;
         losses2++;
+        alert("player 1 wins!")
       }
 
       if ((choice1 === "rock") && (choice2 === "paper")) {
         losses1++;
         wins2++;
+        alert("player 2 wins!")
       }
 
       if ((choice1 === "scissors") && (choice2 === "rock")) {
         losses1++;
         wins2++;
+        alert("player 2 wins!")
       }
 
       if ((choice1 === "scissors") && (choice2 === "paper")) {
         wins1++;
         losses2++;
+        alert("player 1 wins!")
       }
 
       if ((choice1 === "paper") && (choice2 === "rock")) {
         wins1++;
         losses2++;
+        alert("player 1 wins!")
       }
 
       if ((choice1 === "paper") && (choice2 === "scissors")) {
         losses1++;
         wins2++;
+        alert("player 2 wins!")
       }
 
       if (choice1 === choice2) {
         ties++;
+        alert("Tie Game!")
       }
 
   gameOver()
